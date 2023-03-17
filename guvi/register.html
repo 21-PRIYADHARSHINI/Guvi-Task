@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+        Register-Guvi
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>        
+    </head>
+    <body>
+        <p>
+            Registration page
+        </p>
+        <div id="register_form">
+        <form id="register">
+          <label for="email"><b>Email</b></label>
+             <input id='email' type="text" placeholder="Enter Email Id" name="email" required><br>
+          <label for="phone"><b>Phone number</b></label>
+             <input id='phone' type="text" placeholder="Enter Phone number" name="phone" required><br>
+          <label for="userid"><b>User Name</b></label>
+             <input id='userid' type="text" placeholder="Enter User Name" name="userid" required><br>
+          <label for="password"><b>Password</b></label>
+             <input id='password' type="text" placeholder="Enter Password" name="password" required><br>
+          <label for="cpass"><b>Confirm Password</b></label>
+             <input id='cpassword' type="text" placeholder="Re-enter Password" name="cpassword" required><br>
+          <input type="checkbox" checked="checked" name="terms"> Agree to terms and conditions<br>   
+          <button type="button" id="submit_register">Register</button>
+          <button type="button">Cancel</button>
+          <p>Already have an account?<a href="login.html">Login</a></p>
+        </form>
+        <script src="/guvi/js/register.js"></script>
+        </div>
+        <div id="message"></div>
+    </body>
+</html>

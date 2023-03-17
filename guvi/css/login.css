@@ -1,0 +1,9 @@
+
+body {
+    background-image: url("/guvi/assets/cloudbg.jpg");
+  }
+#prompt{
+    padding-top: 100px;
+    text-align: center;
+    color:rgb(75, 5, 239);
+}
